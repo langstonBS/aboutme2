@@ -1,0 +1,57 @@
+body {
+    max-width: 750;
+    margin: 0 auto;
+}
+.immage-perso {
+    z-index: 1;
+    float: left;
+
+}
+
+img {
+    width: 90%;
+    border-radius: 4%;
+}
+
+section{
+    max-width: 400px;
+    float: left;
+    min-width: 100px;
+}
+
+figcaption{
+    justify-content: center;
+    text-emphasis: none;
+    text-align: center;
+}
+button {
+    font-size: 16px;
+    text-align: center;
+    margin: 3px;
+    float: center;
+    clear: both;
+    display: block;
+
+}
+
+p{
+    color: black;
+}
+h1 {
+    text-align: center;
+    font: 2em  'Franklin Gothic Medium';
+}
+
+h2 {
+    color: black;
+    text-align: center;
+    text-emphasis: bold;
+}
+
+footer {
+    max-width: 750px;
+    display: inline;
+    z-index: 3;
+    text-align: center;
+    background: black;
+}
