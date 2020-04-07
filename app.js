@@ -1,5 +1,5 @@
 //take in imput and send somthing liek a test back out
-import { isYes } from './src/isYes.js';
+import isYes  from './src/isYes.js';
 
 //global Dom elements
 const testButten = document.getElementById('startTest');
@@ -13,6 +13,7 @@ const resalt = document.getElementById('resalts');
 // Event Handlers
 function runTest(){
     //varables from me 
+    console.log('imehere');
 
     let name = ' ';
     let score = ' ';
@@ -64,11 +65,3 @@ function runTest(){
 }
 
 testButten.addEventListener('click', runTest);
-
-
-  // show the user a message. only options is 'OK'
-
-
-
-
-   // returns: true for 'OK', and false for 'Cance+++
